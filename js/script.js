@@ -49,7 +49,7 @@ function windowLoad() {
 			translate3d(-${birdsTraslate}%,0,0)
 			scale(${birdsScale});
 			`;
-			birds[1] = `
+		birds[1] = `
 			transform:
 			translate3d(${birdsTraslate}%,0,0)
 			scale(${birdsScale});
