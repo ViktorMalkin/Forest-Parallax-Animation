@@ -44,7 +44,7 @@ function windowLoad() {
 		const birdsTraslate = 190 / 100 * finalPos;
 		const birdsScale = 1 + 2 / 100 * finalPos;
 
-		birds[0] = `
+		birds[0].style.cssText = `
 			transform:
 			translate3d(-${birdsTraslate}%,0,0)
 			scale(${birdsScale});
